@@ -1,2 +1,12 @@
 title: Blog Robótica Móvil
 description: Blog de alumno de la asignatura de Robótica Móvil del grado Ingeniría Robótica Software de la URJC
+lsi: false
+safe: true
+source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
