@@ -3,9 +3,6 @@
 # Practica 1: Navegación pseudoaleatoria con FSM en una aspiradora de gama baja
 
 # Desarrollo
-
-<img width="611" height="803" alt="Captura desde 2026-10-06 20-30-13" src="https://github.com/user-attachments/assets/8ff5a312-8fc4-43a8-81f5-1630f6113dfa" />
-
 El software de la aspiradora está compuesto de cuatro estados. El primer estado es el SPIRAL, sirve para limpiar el máximo posible al comienzo de la simulación. Cuando el robot detecta con el laser un obstáculo a menos de 0,4 metros se detiene y entra el segundo estado: BACKWARD. El robot retrocede para separarse del obstáculo hasta que está a más de 0,7 metros del obstáculo. Cuando llega a ese punto se cambia al tercer estado: SPINNING. El robot gira sobre si mismo durante un tiempo aleatorio entre 1 y 2 segundos para dar que sea una navegación pseudoaleatoria tal y como pide la práctica. El último estado es FORWARD. El robot avanza en linea recta hasta que el laser lee un obstáculo y vuelve al segundo estado. De esta manera que sea un bucle infinito como pide la práctica.
 
 # Problemas encontrados
