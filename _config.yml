@@ -1,12 +1,19 @@
 title: Blog Robótica Móvil
-description: Blog de alumno de la asignatura de Robótica Móvil del grado Ingeniría Robótica Software de la URJC
-lsi: false
-safe: true
-source: [your repo's top level directory]
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
+description: Blog de prácticas de la asignatura Robótica Móvil (Grado en Ingeniería Robótica Software - URJC)
+
+# Tema
+theme: jekyll-theme-hacker
+
+# Formato y Markdown
+markdown: kramdown
 kramdown:
-  math_engine: mathjax
+  input: GFM
   syntax_highlighter: rouge
+
+# Enlaces limpios y estructura
+permalink: pretty
+
+# Archivos o carpetas que no deben procesarse como páginas web
+exclude:
+  - README.md
+  - .gitignore
