@@ -12,8 +12,3 @@ kramdown:
 
 # Enlaces limpios y estructura
 permalink: pretty
-
-# Archivos o carpetas que no deben procesarse como páginas web
-exclude:
-  - README.md
-  - .gitignore
