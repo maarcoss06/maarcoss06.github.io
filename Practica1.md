@@ -1,3 +1,8 @@
+---
+layout: page
+title: Practica 1: Aspiradora de baja gama
+---
+
 # Practica 1: Navegación pseudoaleatoria con FSM en una aspiradora de gama baja
 
 # Desarrollo
