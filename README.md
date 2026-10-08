@@ -1,3 +1,3 @@
 ## Prácticas:
 
-* [Practica 1: Aspiadora de baja gama](Practica1.html)
+* [Practica 1: Aspiradora de baja gama](Practica1)
