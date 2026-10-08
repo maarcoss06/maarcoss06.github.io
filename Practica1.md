@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Practica 1: Aspiradora de baja gama
 ---
 
