@@ -1,2 +1,2 @@
-# Blog de Practicas de Robótica Móvil
+# Blog de Prácticas de Robótica Móvil
 Hecho por Marcos Moreno
