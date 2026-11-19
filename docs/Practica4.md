@@ -27,6 +27,10 @@ En las primeras simulaciones el coche se chocaba con las esquinas al girar. Esto
 
 Otro problema que se tuvo en las primeras simulaciones fue que al llegar al destino, el coche se ponía a dar vueltas sobre si mismo hasta que se eligiese un nuevo destino. Al detectar la llegada se enviaban velocidad y giro cero, pero a continuación el programa ejecutaba igualmente el bloque de control y volvía a enviar una velocidad y un giro. Estas órdenes contradictorias, junto con un punto local cada vez más cercano que el coche sobrepasaba, hacían que orbitara alrededor del destino. Para solucionarlo, al llegar se ponen a cero las velocidades y se salta el resto de la iteración, además se usa una variable para imprimir el aviso de llegada una sola vez. El coche queda quieto hasta que se elige un nuevo destino.
 
+# Vídeo
+
+https://youtu.be/gxmLR7vwJHU
+
 # Conclusión
 La práctica permite comprobar cómo un algoritmo de planificación basado en un campo de potencial puede resolver la navegación global: el wavefront calcula en una sola pasada el coste de llegar al destino desde cualquier celda, y seguir el gradiente descendente produce un camino que evita los obstáculos. La penalización cerca de las paredes y un punto local situado unas celdas por delante resultaron clave para que el coche tomara bien las curvas.
 
